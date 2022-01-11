@@ -72,13 +72,13 @@
       },
     };
 
-    const initialDate = new Date("2021-01-01T00:00:00");
+    const initialDate = new Date("2022-01-01T00:00:00");
     const parsedInitialDate = Math.floor(initialDate / 1000);
     const now = Math.floor(Date.now() / 1000);
-    const amountPerSecond = 59.61;
+    const amountPerSecond = 25.65;
     const passedSeconds = now - parsedInitialDate;
     const amountPassed = passedSeconds * amountPerSecond;
-    const initialAmountOnStartDate = 11039000000;
+    const initialAmountOnStartDate = 12919000000;
 
     let initialAmount = initialAmountOnStartDate + amountPassed;
 
